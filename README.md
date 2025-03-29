@@ -1,3 +1,3 @@
-## Proyecto sencillo hecho con HTML, CSS y Bootstrap
+## Generation Mexico
 
-# Proyecto de Genration Mexico
+# Proyecto sencillo hecho con HTML, CSS y Bootstrap
