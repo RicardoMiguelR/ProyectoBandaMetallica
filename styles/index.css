@@ -1,0 +1,84 @@
+html {
+  --titles: "Rowdies", sans-serif;
+  --background-titles: #f1efec;
+  --text-font: Verdana, Geneva, Tahoma, sans-serif;
+  --text-color: #d4c9be;
+
+  text-align: center;
+  background-color: #123458;
+}
+
+h1,
+h3 {
+  font-family: var(--titles);
+  background-color: var(--background-titles);
+  border-radius: 10px;
+}
+
+p,
+ol,
+label {
+  font-family: var(--text-font);
+  color: var(--text-color);
+}
+
+div.gato-texto p.texto-principal {
+  margin-top: 3rem;
+}
+
+div.container.container-principal {
+  margin-top: 3rem;
+}
+
+nav.navbar#color-navbar {
+  background-color: #f1efec;
+}
+
+nav.navbar {
+  font-weight: bold;
+}
+
+div.contenedor-album {
+  margin-bottom: 70px;
+  background-color: #0707074b;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+div.contenedor-opiniones div.formulario {
+  background: #03030356;
+  width: 50%;
+  padding: 25px;
+  border-radius: 20px;
+  justify-self: center;
+}
+
+div.feedback {
+  display: grid;
+}
+
+div.feedback input.input-texto,
+input.input-email {
+  border-radius: 10px;
+}
+
+div.contenedor-album h3.estilos-titulos-secundarios {
+  margin: 20px;
+}
+
+li {
+  list-style-position: inside;
+}
+
+div.boton-enviar button.estilo-boton-enviar {
+  border-radius: 10px;
+  background-color: rgb(8, 77, 8);
+  color: var(--text-color);
+  width: 100%;
+  margin-top: 20px;
+}
+
+div.boton-enviar button.estilo-boton-enviar:hover {
+  background-color: rgba(31, 211, 31, 0.685);
+  color: black;
+}
